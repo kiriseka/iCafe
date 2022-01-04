@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/Pemesanan-Travel-master/TravelApps/app/src/main/res/drawable/bg_home_curve.xml" value="0.2890625" />
+        <entry key="..\:/Android Studio/Pemesanan-Travel-master/TravelApps/app/src/main/res/layout/activity_main.xml" value="0.1956521739130435" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/drawable/bg_home_curve.xml" value="0.3828125" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/drawable/bg_home_wave.xml" value="0.3828125" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/drawable/bg_menu.xml" value="0.3828125" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/drawable/circletransparant.xml" value="0.3828125" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/drawable/ic_book.xml" value="0.3828125" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/drawable/ic_email.xml" value="0.3828125" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/drawable/ic_password.xml" value="0.3828125" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/drawable/selector.xml" value="0.3828125" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/layout/activity_book_kereta.xml" value="0.33106884057971014" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/layout/activity_detail.xml" value="0.33" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/layout/activity_history.xml" value="0.33" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/layout/activity_main.xml" value="0.33106884057971014" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/layout/activity_profile.xml" value="0.33106884057971014" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/layout/list_item_booking.xml" value="0.33" />
+        <entry key="..\:/Android Studio/food-app-latest/app/src/main/res/menu/app_menu_item.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

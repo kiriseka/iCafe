@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailActivity">
+
+    <ImageView
+        android:id="@+id/detail_gambar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/nasigoreng"/>
+
+    <TextView
+        android:id="@+id/detail_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:text="MANTAPPP"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/detail_gambar"
+        app:layout_constraintEnd_toEndOf="@+id/detail_gambar"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="@+id/detail_gambar"
+        app:layout_constraintTop_toTopOf="@+id/detail_gambar"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <TextView
+        android:id="@+id/detail_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="296dp"
+        android:text="Rp. 12000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/detail_judul"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/detail_judul"
+        app:layout_constraintTop_toBottomOf="@+id/detail_judul" />
+
+    <TextView
+        android:id="@+id/detail_deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="27dp"
+        android:paddingEnd="27dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Sangat Enakk"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/detail_harga"
+        app:layout_constraintStart_toStartOf="@+id/detail_harga"
+        app:layout_constraintTop_toBottomOf="@+id/detail_harga" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
