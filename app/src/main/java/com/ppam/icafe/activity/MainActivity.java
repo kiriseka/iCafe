@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
     public void refreshList() {
         final ArrayList<MainModel> Menu = new ArrayList<>();
 //        cursor = db.rawQuery("SELECT * FROM TB_BOOK, TB_COURSE WHERE TB_BOOK.id_book = TB_COURSE.id_book AND username='" + harga + "'", null);
-        cursor = db.rawQuery("SELECT DISTINCT * FROM TB_BOOK GROUP BY id_book", null);
+        cursor = db.rawQuery("SELECT DISTINCT * FROM tb_makanan GROUP BY id_book", null);
         cursor.moveToFirst();
         for (int i = 0; i < cursor.getCount(); i++) {
             cursor.moveToPosition(i);

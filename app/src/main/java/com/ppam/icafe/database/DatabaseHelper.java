@@ -16,17 +16,14 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String COL_NAME = "name";
 
 
-    public static final String TABLE_MENU = "tb_book";
+    public static final String TABLE_MENU = "tb_makanan";
     public static final String COL_ID_BOOK = "id_book";
     public static final String COL_MENU = "menu";
     public static final String COL_HARGA = "harga";
     public static final String COL_DESKRIPSI = "deskripsi";
 
 
-    public static final String TABLE_COURSE = "tb_course";
-    public static final String COL_KELAS_COURSE = "kelas_course";
-    public static final String COL_JAM_COURSE = "jam_course";
-    public static final String COL_HARGA_TOTAL = "harga_total";
+
 
     private SQLiteDatabase db;
 
@@ -40,10 +37,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("PRAGMA foreign_keys=ON");
         db.execSQL("create table " + TABLE_USER + " (" + COL_USERNAME + " TEXT PRIMARY KEY, " + COL_PASSWORD +
                 " TEXT, " + COL_NAME + " TEXT)");
-        db.execSQL("create table " + TABLE_COURSE + " (" + COL_USERNAME + " TEXT, " + COL_ID_BOOK + " INTEGER, " +
-                COL_KELAS_COURSE + " TEXT, " + COL_JAM_COURSE + " TEXT, " + COL_HARGA_TOTAL +
-                " TEXT, FOREIGN KEY(" + COL_USERNAME + ") REFERENCES " + TABLE_USER
-                + ", FOREIGN KEY(" + COL_ID_BOOK + ") REFERENCES " + TABLE_MENU + ")");
         db.execSQL("insert into " + TABLE_USER + " values ('tes@gmail.com','tes','Test Account');");
 
 
@@ -56,27 +49,27 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
 
 //        db.execSQL("insert into " + TABLE_BOOK + " values ('','Keju','Cobain','2','t','5');");
-        db.execSQL("INSERT INTO TB_BOOK (menu, harga, deskripsi) VALUES ('" +
+        db.execSQL("INSERT INTO tb_makanan (menu, harga, deskripsi) VALUES ('" +
                 "Nasi Goreng" + "','" +
                 "1500" + "','" +
                 "Nasi goreng adalah sebuah makanan berupa nasi yang digoreng dan diaduk dalam minyak goreng, margarin, atau mentega. Biasanya ditambah kecap manis, bawang merah, bawang putih, asam jawa, lada dan bumbu-bumbu lainnya; seperti telur, ayam, dan kerupuk." + "');");
 
-        db.execSQL("INSERT INTO TB_BOOK (menu, harga, deskripsi) VALUES ('" +
+        db.execSQL("INSERT INTO tb_makanan (menu, harga, deskripsi) VALUES ('" +
                 "Cheesecake" + "','" +
                 "50000" + "','" +
                 "Cheesecake (bahasa Indonesia: \"kue keju\") adalah kue yang biasanya dimakan sebagai hidangan penutup, dibuat dengan mencampurkan keju yang bertekstur lembut, telur, susu, dan gula." + "');");
 
-        db.execSQL("INSERT INTO TB_BOOK (menu, harga, deskripsi) VALUES ('" +
+        db.execSQL("INSERT INTO tb_makanan (menu, harga, deskripsi) VALUES ('" +
                 "Batagor" + "','" +
                 "500000" + "','" +
                 "Secara umum, batagor dibuat dari tahu yang dilembutkan dan diisi dengan adonan berbahan ikan tenggiri dan tepung tapioka lalu dibentuk menyerupai bola yang digoreng dalam minyak panas selama beberapa menit hingga matang" + "');");
 
-        db.execSQL("INSERT INTO TB_BOOK (menu, harga, deskripsi) VALUES ('" +
+        db.execSQL("INSERT INTO tb_makanan (menu, harga, deskripsi) VALUES ('" +
                 "Donat" + "','" +
                 "80000" + "','" +
                 "Donat (doughnut atau donut dalam bahasa Inggiriah) adolah makanan barupo roti nan dipanggang, adonan tepung terigu, gula, telur, dan mentega. Donat nan paliang umum adolah donat nan babantuak cincin nan balubang di tangah sarato donat nan babantuak bundar nan mamiliki isian manis, sarupo salai, jally, krim, tapuang gulo." + "');");
 
-        db.execSQL("INSERT INTO TB_BOOK (menu, harga, deskripsi) VALUES ('" +
+        db.execSQL("INSERT INTO tb_makanan (menu, harga, deskripsi) VALUES ('" +
                 "Black Salad" + "','" +
                 "20000" + "','" +
                 "Black salad merupakan salad berwarna hitam dilengkapi dengan charcoal yang memiliki fungsi yang baik untuk tubuh kita." + "');");
