@@ -40,7 +40,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("insert into " + TABLE_USER + " values ('tes@gmail.com','tes','Test Account');");
 
 
-//        Memasukkan data Menu
+//        Memasukkan data Menu aslkdaskldjaslkd asdas d
 
 //        db.execSQL("DROP TABLE " + TABLE_MENU);
 
