@@ -62,21 +62,22 @@
             android:textFontWeight="700"
             android:textSize="20sp" />
 
+
         <TextView
             android:id="@+id/tvLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tvDesc"
             android:layout_alignStart="@+id/tvDesc"
+            android:layout_marginStart="2dp"
             android:layout_marginTop="100dp"
             android:layout_marginBottom="-8dp"
             android:elevation="5dp"
-            android:text="Login to your Account"
+            android:text="Register your Account"
             android:textColor="@android:color/black"
             android:textFontWeight="700"
             android:textSize="20sp"
             android:textStyle="bold" />
-
 
         <LinearLayout
             android:id="@+id/daftar_layout"
